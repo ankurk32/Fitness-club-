@@ -1,0 +1,187 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    background-color: #0a74da;
+    color: #fff;
+    padding: 100px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #ff5733;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  button a {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  button:hover {
+    background-color: #ff2a00;
+  }
+  
+  /* Membership Plans */
+  .membership-plans {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .membership-plans h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .plan {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .plan h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .plan p {
+    font-size: 18px;
+  }
+  
+  /* Class Schedule */
+  .class-schedule table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+  }
+  
+  .class-schedule th, .class-schedule td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .class-schedule th {
+    background-color: #f4f4f4;
+  }
+  
+  /* Trainer Profiles */
+  .trainer-profiles {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .trainer {
+    margin-bottom: 30px;
+  }
+  
+  .trainer img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .trainer h3 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .trainer p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Blog */
+  .blog {
+    padding: 50px 20px;
+  }
+  
+  .blog h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .blog article {
+    margin-bottom: 30px;
+  }
+  
+  .blog article h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .blog article p {
+    font-size: 18px;
+    color: #555;
+  }
+  
